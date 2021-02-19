@@ -14,6 +14,7 @@
   "productionSourceMaps": false,
   "silent": false,
   "entry": "index.js",
+  "siteRoot": "https://rook-platoon.github.io",
   "basePath": "alana.github.io",
   "plugins": [
     [
@@ -41,8 +42,7 @@
     "HTML_TEMPLATE": "D:\\workspace\\rook\\alana\\dist\\index.html",
     "STATIC_DATA": "D:\\workspace\\rook\\alana\\dist\\staticData"
   },
-  "siteRoot": "/",
-  "publicPath": "/alana.github.io/",
+  "publicPath": "https://rook-platoon.github.io/alana.github.io/",
   "assetsPath": "",
   "extractCssChunks": false,
   "inlineCss": false,

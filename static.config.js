@@ -2,6 +2,7 @@ import path from 'path'
 import axios from 'axios'
 
 const config = {
+  siteRoot: "https://rook-platoon.github.io/",
   basePath: "alana.github.io",
   getRoutes: async () => {
     const { data: posts } = await axios.get(
