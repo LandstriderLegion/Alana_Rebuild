@@ -2,9 +2,9 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "0bb49276487030526b56",
-  "time": 10552,
-  "builtAt": 1613760776017,
+  "hash": "971c462d129895c278c3",
+  "time": 3803,
+  "builtAt": 1613766062195,
   "publicPath": "/",
   "outputPath": "D:\\workspace\\rook\\alana\\dist",
   "assetsByChunkName": {
@@ -16,7 +16,7 @@
     "main": "main.cc8f5c7f.js",
     "styles": [
       "styles.82b2ee7c.css",
-      "templates/styles.b2b2dadb.js"
+      "templates/styles.0b7d64b6.js"
     ],
     "vendors~main": "templates/vendors~main.4fea7709.js"
   },
@@ -120,7 +120,7 @@
       "emitted": true
     },
     {
-      "name": "templates/styles.b2b2dadb.js",
+      "name": "templates/styles.0b7d64b6.js",
       "size": 82,
       "chunks": [
         6
@@ -158,7 +158,7 @@
       ],
       "assets": [
         "styles.82b2ee7c.css",
-        "templates/styles.b2b2dadb.js",
+        "templates/styles.0b7d64b6.js",
         "templates/vendors~main.4fea7709.js",
         "main.cc8f5c7f.js"
       ],
@@ -175,7 +175,7 @@
       ],
       "assets": [
         "styles.82b2ee7c.css",
-        "templates/styles.b2b2dadb.js",
+        "templates/styles.0b7d64b6.js",
         "templates/vendors~main.4fea7709.js",
         "main.cc8f5c7f.js"
       ],
@@ -1454,9 +1454,9 @@
       ],
       "files": [
         "styles.82b2ee7c.css",
-        "templates/styles.b2b2dadb.js"
+        "templates/styles.0b7d64b6.js"
       ],
-      "hash": "8638655807ae58d5272e",
+      "hash": "496dc215f2f3c6ecb176",
       "siblings": [
         5,
         7
@@ -1531,7 +1531,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1613760770133\n      var cssReload = require(\"D:/workspace/rook/alana/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1613766060877\n      var cssReload = require(\"D:/workspace/rook/alana/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": "",
@@ -24651,7 +24651,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1613760770133\n      var cssReload = require(\"D:/workspace/rook/alana/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1613766060877\n      var cssReload = require(\"D:/workspace/rook/alana/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 130,
