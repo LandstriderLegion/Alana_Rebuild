@@ -1,6 +1,7 @@
 {
   "name": "react-static-example-basic",
   "private": true,
+  "homepage": "https://rook-platoon.github.io/alana.github.io/",
   "scripts": {
     "start": "react-static start",
     "stage": "react-static build --staging",
