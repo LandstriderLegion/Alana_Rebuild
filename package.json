@@ -13,9 +13,9 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-hot-loader": "^4.13.0",
-    "react-static": "^7.5.0",
-    "react-static-plugin-sitemap": "^7.5.0",
-    "react-static-plugin-source-filesystem": "^7.5.0"
+    "react-static": "7.4.2",
+    "react-static-plugin-sitemap": "7.4.2",
+    "react-static-plugin-source-filesystem": "7.4.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
