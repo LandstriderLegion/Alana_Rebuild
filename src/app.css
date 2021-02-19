@@ -35,3 +35,13 @@ nav a {
 .content {
   padding: 1rem;
 }
+
+input {
+  width: 300px;
+  max-width: 100%;
+}
+
+select {
+  width: 300px;
+  max-width: 100%;
+}
