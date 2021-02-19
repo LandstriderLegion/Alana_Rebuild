@@ -1,7 +1,8 @@
 import path from 'path'
 import axios from 'axios'
 
-export default {
+const config = {
+  siteRoot: "https://rook-platoon.github.io/alana.github.io/",
   getRoutes: async () => {
     const { data: posts } = await axios.get(
       'https://jsonplaceholder.typicode.com/posts'
@@ -34,3 +35,5 @@ export default {
     require.resolve('react-static-plugin-sitemap'),
   ],
 }
+
+export default config;
