@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "boom": "npm run-script build && git add . && git commit -m \"auto-commit\" && git push origin main && git subtree push --prefix dist origin gh-pages",
+    "boom-staging": "npm run-script stage && git add . && git commit -m \"auto-commit\" && git push origin main && git subtree push --prefix dist origin gh-pages",
     "start": "react-static start",
     "stage": "react-static build --staging",
     "build": "react-static build",

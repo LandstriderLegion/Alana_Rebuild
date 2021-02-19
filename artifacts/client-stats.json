@@ -2,26 +2,26 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "9b539b4557df60e83806",
-  "time": 6846,
-  "builtAt": 1613779006557,
-  "publicPath": "https://rook-platoon.github.io/alana.github.io/",
+  "hash": "77af2ca029a93688f4c6",
+  "time": 6063,
+  "builtAt": 1613779113568,
+  "publicPath": "/",
   "outputPath": "D:\\workspace\\rook\\alana\\dist",
   "assetsByChunkName": {
     "__react_static_root__/src/pages/404": "templates/__react_static_root__/src/pages/404.6640d28c.js",
     "__react_static_root__/src/pages/commodities": "templates/__react_static_root__/src/pages/commodities.8784f729.js",
     "__react_static_root__/src/pages/index": "templates/__react_static_root__/src/pages/index.8e065b46.js",
-    "main": "main.5f66264b.js",
+    "main": "main.6c11fbf1.js",
     "styles": [
       "styles.26c9689c.css",
       "templates/styles.ba51dda6.js"
     ],
-    "vendors~main": "templates/vendors~main.9210f3dd.js"
+    "vendors~main": "templates/vendors~main.1df0665a.js"
   },
   "assets": [
     {
-      "name": "main.5f66264b.js",
-      "size": 5848,
+      "name": "main.6c11fbf1.js",
+      "size": 5802,
       "chunks": [
         3
       ],
@@ -104,8 +104,8 @@
       "emitted": true
     },
     {
-      "name": "templates/vendors~main.9210f3dd.js",
-      "size": 228773,
+      "name": "templates/vendors~main.1df0665a.js",
+      "size": 228625,
       "chunks": [
         5
       ],
@@ -129,8 +129,8 @@
       "assets": [
         "styles.26c9689c.css",
         "templates/styles.ba51dda6.js",
-        "templates/vendors~main.9210f3dd.js",
-        "main.5f66264b.js"
+        "templates/vendors~main.1df0665a.js",
+        "main.6c11fbf1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -146,8 +146,8 @@
       "assets": [
         "styles.26c9689c.css",
         "templates/styles.ba51dda6.js",
-        "templates/vendors~main.9210f3dd.js",
-        "main.5f66264b.js"
+        "templates/vendors~main.1df0665a.js",
+        "main.6c11fbf1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -981,9 +981,9 @@
         "main"
       ],
       "files": [
-        "main.5f66264b.js"
+        "main.6c11fbf1.js"
       ],
-      "hash": "860159f4eda8167eb6a8",
+      "hash": "9d5fae0b6d8805c093c8",
       "siblings": [
         4,
         5
@@ -1540,9 +1540,9 @@
         "vendors~main"
       ],
       "files": [
-        "templates/vendors~main.9210f3dd.js"
+        "templates/vendors~main.1df0665a.js"
       ],
-      "hash": "d3d1e006a4c728319f3c",
+      "hash": "85440e5bf424ad7d76d4",
       "siblings": [
         3,
         4
@@ -21302,7 +21302,7 @@
     {
       "errors": [],
       "warnings": [],
-      "publicPath": "https://rook-platoon.github.io/alana.github.io/",
+      "publicPath": "/",
       "outputPath": "D:\\workspace\\rook\\alana\\dist",
       "assetsByChunkName": {},
       "assets": [],
@@ -21344,7 +21344,7 @@
           "files": [
             "*"
           ],
-          "hash": "1c1bed3bbc40fce630fe",
+          "hash": "7565ad04958e0134e211",
           "siblings": [],
           "parents": [],
           "children": [],
