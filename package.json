@@ -8,6 +8,7 @@
     "analyze": "react-static build --analyze",
     "serve": "serve dist -p 3000"
   },
+  "homepage": "/",
   "dependencies": {
     "@reach/router": "^1.3.4",
     "axios": "^0.21.1",

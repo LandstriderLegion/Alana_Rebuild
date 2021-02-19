@@ -1,0 +1,22 @@
+Idea: 
+
+Goal is to make sure that any time that somebody posts that they are going to use their carrier to jump it is posted, formalized, sent through the bot.
+Google Sheets, info gets punched in, saved
+Bot sends messages in discord
+
+
+1. Initiate Carrier Jump
+
+	a. carrier name, departure date/time, return date/time, from system, to system, distance (1 way/2 ways), approx. cost of tridium
+
+2.
+
+
+
+===
+
+name of commodity, supply
+
+
+
+scrape inara, input system/station, get commodity, supply, cost, export to csv
