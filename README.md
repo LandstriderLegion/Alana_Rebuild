@@ -1,3 +1,7 @@
+# Site URL
+
+https://rook-platoon.github.io/alana.github.io/
+
 # Updating Live Site
 
 ## Run build script:

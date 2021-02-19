@@ -1,7 +1,12 @@
 import React from 'react'
 
-export default () => (
-  <div style={{ textAlign: 'center' }}>
-    <h1>Welcome to React-Static</h1>
-  </div>
-)
+const Index = () => {
+
+  return (
+    <div style={{ textAlign: 'center' }}>
+      <h1>Welcome to React-Static</h1>
+    </div>
+  )
+}
+
+export default Index
