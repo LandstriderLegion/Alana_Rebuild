@@ -2,25 +2,25 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "35b6c32a940d1ddd24fb",
-  "time": 3473,
-  "builtAt": 1613778444436,
+  "hash": "e6793fbd3516ab916af2",
+  "time": 4508,
+  "builtAt": 1613778712041,
   "publicPath": "https://rook-platoon.github.io/alana.github.io/",
   "outputPath": "D:\\workspace\\rook\\alana\\dist",
   "assetsByChunkName": {
     "__react_static_root__/src/pages/404": "templates/__react_static_root__/src/pages/404.dabec9bc.js",
-    "__react_static_root__/src/pages/commodities": "templates/__react_static_root__/src/pages/commodities.3449b0e8.js",
+    "__react_static_root__/src/pages/commodities": "templates/__react_static_root__/src/pages/commodities.f735ce3b.js",
     "__react_static_root__/src/pages/index": "templates/__react_static_root__/src/pages/index.efebb542.js",
-    "main": "main.a4549c3c.js",
+    "main": "main.5da7356f.js",
     "styles": [
       "styles.26c9689c.css",
-      "templates/styles.804f8893.js"
+      "templates/styles.7a9709b1.js"
     ],
     "vendors~main": "templates/vendors~main.f518f0a2.js"
   },
   "assets": [
     {
-      "name": "main.a4549c3c.js",
+      "name": "main.5da7356f.js",
       "size": 5849,
       "chunks": [
         3
@@ -62,8 +62,8 @@
       "emitted": true
     },
     {
-      "name": "templates/__react_static_root__/src/pages/commodities.3449b0e8.js",
-      "size": 3821,
+      "name": "templates/__react_static_root__/src/pages/commodities.f735ce3b.js",
+      "size": 3719,
       "chunks": [
         1
       ],
@@ -90,7 +90,7 @@
       "emitted": true
     },
     {
-      "name": "templates/styles.804f8893.js",
+      "name": "templates/styles.7a9709b1.js",
       "size": 82,
       "chunks": [
         4
@@ -128,9 +128,9 @@
       ],
       "assets": [
         "styles.26c9689c.css",
-        "templates/styles.804f8893.js",
+        "templates/styles.7a9709b1.js",
         "templates/vendors~main.f518f0a2.js",
-        "main.a4549c3c.js"
+        "main.5da7356f.js"
       ],
       "children": {},
       "childAssets": {}
@@ -145,9 +145,9 @@
       ],
       "assets": [
         "styles.26c9689c.css",
-        "templates/styles.804f8893.js",
+        "templates/styles.7a9709b1.js",
         "templates/vendors~main.f518f0a2.js",
-        "main.a4549c3c.js"
+        "main.5da7356f.js"
       ],
       "children": {},
       "childAssets": {}
@@ -167,7 +167,7 @@
         1
       ],
       "assets": [
-        "templates/__react_static_root__/src/pages/commodities.3449b0e8.js"
+        "templates/__react_static_root__/src/pages/commodities.f735ce3b.js"
       ],
       "children": {},
       "childAssets": {}
@@ -293,14 +293,14 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 6897,
+      "size": 6780,
       "names": [
         "__react_static_root__/src/pages/commodities"
       ],
       "files": [
-        "templates/__react_static_root__/src/pages/commodities.3449b0e8.js"
+        "templates/__react_static_root__/src/pages/commodities.f735ce3b.js"
       ],
-      "hash": "7fba6a15e88c917fd066",
+      "hash": "1947cf27f20e215ac47b",
       "siblings": [],
       "parents": [
         3,
@@ -316,7 +316,7 @@
           "name": "D:/workspace/rook/alana/src/pages/commodities.js + 5 modules",
           "index": 120,
           "index2": 125,
-          "size": 6897,
+          "size": 6780,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -370,7 +370,7 @@
               "name": "D:/workspace/rook/alana/src/pages/commodities.js",
               "index": 120,
               "index2": 125,
-              "size": 3485,
+              "size": 3368,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -428,7 +428,7 @@
                 "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: D:/workspace/rook/alana/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
               ],
               "depth": 3,
-              "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React,{useState,useEffect}from'react';import{CommoditiesService}from'../services';import{Station}from'../models';var commoditiesService=new CommoditiesService();var Commodities=function Commodities(){var _useState=useState(getStations()),_useState2=_slicedToArray(_useState,2),stations=_useState2[0],setStations=_useState2[1];var _useState3=useState(),_useState4=_slicedToArray(_useState3,2),selectedStation=_useState4[0],setSelectedStation=_useState4[1];var _useState5=useState(),_useState6=_slicedToArray(_useState5,2),data=_useState6[0],setData=_useState6[1];useEffect(function(){console.info('Stations: ',stations);},[stations]);useEffect(function(){console.info('Selected: ',selectedStation);},[selectedStation]);function refreshStations(){var stations=getStations();setStations(stations);}function getStations(){return commoditiesService.getStations();}function addStation(systemName,stationName){var station=new Station(systemName,stationName);commoditiesService.addStation(station);refreshStations();}function handleAddStation(event){event.preventDefault();var systemName=event.target.elements.system.value;var stationName=event.target.elements.station.value;addStation(systemName,stationName);}function handleSelectStation(event){var station=event.target.value;setSelectedStation(station);commoditiesService.queryStationData().then(function(data){setData(data);});}function handleRemoveStation(){var selected=JSON.parse(selectedStation);var station=new Station(selected.system,selected.name);commoditiesService.removeStation(station);refreshStations();setSelectedStation(\"\");}return/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"h1\",null,\"Select Station\"),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"select\",{name:\"stations\",value:selectedStation,onChange:function onChange(e){return handleSelectStation(e);}},/*#__PURE__*/React.createElement(\"option\",{key:\"null\",value:\"\"}),stations.map(function(station,index){return/*#__PURE__*/React.createElement(\"option\",{key:station.name+index,value:station},station.system,\", \",station.name);})),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"button\",{disabled:!selectedStation||selectedStation.length===0,onClick:handleRemoveStation},\"Delete\"),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"form\",{onSubmit:handleAddStation},/*#__PURE__*/React.createElement(\"label\",null,\"System Name\",/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"input\",{type:\"text\",name:\"system\"})),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"label\",null,\"Station Name\",/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"input\",{type:\"text\",name:\"station\"})),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"input\",{type:\"submit\",value:\"Add Station\",style:{marginTop:24}})),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"h1\",null,\"Station Data\"),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"iframe\",{title:\"data\",src:\"http://inara.cz/market/?ps1=Bodhinga+%5BHay+Forum%5D\"}),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"br\",null));};export default Commodities;"
+              "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React,{useState,useEffect}from'react';import{CommoditiesService}from'../services';import{Station}from'../models';var commoditiesService=new CommoditiesService();var Commodities=function Commodities(){var _useState=useState(getStations()),_useState2=_slicedToArray(_useState,2),stations=_useState2[0],setStations=_useState2[1];var _useState3=useState(),_useState4=_slicedToArray(_useState3,2),selectedStation=_useState4[0],setSelectedStation=_useState4[1];var _useState5=useState(),_useState6=_slicedToArray(_useState5,2),data=_useState6[0],setData=_useState6[1];useEffect(function(){console.info('Stations: ',stations);},[stations]);useEffect(function(){console.info('Selected: ',selectedStation);},[selectedStation]);function refreshStations(){var stations=getStations();setStations(stations);}function getStations(){return commoditiesService.getStations();}function addStation(systemName,stationName){var station=new Station(systemName,stationName);commoditiesService.addStation(station);refreshStations();}function handleAddStation(event){event.preventDefault();var systemName=event.target.elements.system.value;var stationName=event.target.elements.station.value;addStation(systemName,stationName);}function handleSelectStation(event){var station=event.target.value;setSelectedStation(station);commoditiesService.queryStationData().then(function(data){setData(data);});}function handleRemoveStation(){var selected=JSON.parse(selectedStation);var station=new Station(selected.system,selected.name);commoditiesService.removeStation(station);refreshStations();setSelectedStation(\"\");}return/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"h1\",null,\"Select Station\"),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"select\",{name:\"stations\",value:selectedStation,onChange:function onChange(e){return handleSelectStation(e);}},/*#__PURE__*/React.createElement(\"option\",{key:\"null\",value:\"\"}),stations.map(function(station,index){return/*#__PURE__*/React.createElement(\"option\",{key:station.name+index,value:station},station.system,\", \",station.name);})),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"button\",{disabled:!selectedStation||selectedStation.length===0,onClick:handleRemoveStation},\"Delete\"),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"form\",{onSubmit:handleAddStation},/*#__PURE__*/React.createElement(\"label\",null,\"System Name\",/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"input\",{type:\"text\",name:\"system\"})),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"label\",null,\"Station Name\",/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"input\",{type:\"text\",name:\"station\"})),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"input\",{type:\"submit\",value:\"Add Station\",style:{marginTop:24}})),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"h1\",null,\"Station Data\"),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"br\",null));};export default Commodities;"
             },
             {
               "id": null,
@@ -981,9 +981,9 @@
         "main"
       ],
       "files": [
-        "main.a4549c3c.js"
+        "main.5da7356f.js"
       ],
-      "hash": "02e13ec6784d80813ea9",
+      "hash": "4c7b12672bcc3ce2a7be",
       "siblings": [
         4,
         5
@@ -1377,9 +1377,9 @@
       ],
       "files": [
         "styles.26c9689c.css",
-        "templates/styles.804f8893.js"
+        "templates/styles.7a9709b1.js"
       ],
-      "hash": "9512a2bc2e72db3423ef",
+      "hash": "e36ca1a51c6817125eaf",
       "siblings": [
         3,
         5
@@ -1452,7 +1452,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1613778442898\n      var cssReload = require(\"D:/workspace/rook/alana/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1613778710048\n      var cssReload = require(\"D:/workspace/rook/alana/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": "",
@@ -2091,16 +2091,7 @@
               "moduleName": "D:/workspace/rook/alana/src/pages/commodities.js + 5 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:3380-3385"
-            },
-            {
-              "moduleId": 51,
-              "moduleIdentifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\src\\pages\\commodities.js ffb43063f22ab3baaf8e74e023dbd6d2",
-              "module": "D:/workspace/rook/alana/src/pages/commodities.js + 5 modules",
-              "moduleName": "D:/workspace/rook/alana/src/pages/commodities.js + 5 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
-              "loc": "1:3424-3429"
+              "loc": "1:3307-3312"
             },
             {
               "moduleId": 83,
@@ -11708,16 +11699,7 @@
           "moduleName": "D:/workspace/rook/alana/src/pages/commodities.js + 5 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:3380-3385"
-        },
-        {
-          "moduleId": 51,
-          "moduleIdentifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-0-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\src\\pages\\commodities.js ffb43063f22ab3baaf8e74e023dbd6d2",
-          "module": "D:/workspace/rook/alana/src/pages/commodities.js + 5 modules",
-          "moduleName": "D:/workspace/rook/alana/src/pages/commodities.js + 5 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
-          "loc": "1:3424-3429"
+          "loc": "1:3307-3312"
         },
         {
           "moduleId": 83,
@@ -16780,7 +16762,7 @@
       "name": "D:/workspace/rook/alana/src/pages/commodities.js + 5 modules",
       "index": 120,
       "index2": 125,
-      "size": 6897,
+      "size": 6780,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -16834,7 +16816,7 @@
           "name": "D:/workspace/rook/alana/src/pages/commodities.js",
           "index": 120,
           "index2": 125,
-          "size": 3485,
+          "size": 3368,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -16892,7 +16874,7 @@
             "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: D:/workspace/rook/alana/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
           ],
           "depth": 3,
-          "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React,{useState,useEffect}from'react';import{CommoditiesService}from'../services';import{Station}from'../models';var commoditiesService=new CommoditiesService();var Commodities=function Commodities(){var _useState=useState(getStations()),_useState2=_slicedToArray(_useState,2),stations=_useState2[0],setStations=_useState2[1];var _useState3=useState(),_useState4=_slicedToArray(_useState3,2),selectedStation=_useState4[0],setSelectedStation=_useState4[1];var _useState5=useState(),_useState6=_slicedToArray(_useState5,2),data=_useState6[0],setData=_useState6[1];useEffect(function(){console.info('Stations: ',stations);},[stations]);useEffect(function(){console.info('Selected: ',selectedStation);},[selectedStation]);function refreshStations(){var stations=getStations();setStations(stations);}function getStations(){return commoditiesService.getStations();}function addStation(systemName,stationName){var station=new Station(systemName,stationName);commoditiesService.addStation(station);refreshStations();}function handleAddStation(event){event.preventDefault();var systemName=event.target.elements.system.value;var stationName=event.target.elements.station.value;addStation(systemName,stationName);}function handleSelectStation(event){var station=event.target.value;setSelectedStation(station);commoditiesService.queryStationData().then(function(data){setData(data);});}function handleRemoveStation(){var selected=JSON.parse(selectedStation);var station=new Station(selected.system,selected.name);commoditiesService.removeStation(station);refreshStations();setSelectedStation(\"\");}return/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"h1\",null,\"Select Station\"),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"select\",{name:\"stations\",value:selectedStation,onChange:function onChange(e){return handleSelectStation(e);}},/*#__PURE__*/React.createElement(\"option\",{key:\"null\",value:\"\"}),stations.map(function(station,index){return/*#__PURE__*/React.createElement(\"option\",{key:station.name+index,value:station},station.system,\", \",station.name);})),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"button\",{disabled:!selectedStation||selectedStation.length===0,onClick:handleRemoveStation},\"Delete\"),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"form\",{onSubmit:handleAddStation},/*#__PURE__*/React.createElement(\"label\",null,\"System Name\",/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"input\",{type:\"text\",name:\"system\"})),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"label\",null,\"Station Name\",/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"input\",{type:\"text\",name:\"station\"})),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"input\",{type:\"submit\",value:\"Add Station\",style:{marginTop:24}})),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"h1\",null,\"Station Data\"),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"iframe\",{title:\"data\",src:\"http://inara.cz/market/?ps1=Bodhinga+%5BHay+Forum%5D\"}),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"br\",null));};export default Commodities;"
+          "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React,{useState,useEffect}from'react';import{CommoditiesService}from'../services';import{Station}from'../models';var commoditiesService=new CommoditiesService();var Commodities=function Commodities(){var _useState=useState(getStations()),_useState2=_slicedToArray(_useState,2),stations=_useState2[0],setStations=_useState2[1];var _useState3=useState(),_useState4=_slicedToArray(_useState3,2),selectedStation=_useState4[0],setSelectedStation=_useState4[1];var _useState5=useState(),_useState6=_slicedToArray(_useState5,2),data=_useState6[0],setData=_useState6[1];useEffect(function(){console.info('Stations: ',stations);},[stations]);useEffect(function(){console.info('Selected: ',selectedStation);},[selectedStation]);function refreshStations(){var stations=getStations();setStations(stations);}function getStations(){return commoditiesService.getStations();}function addStation(systemName,stationName){var station=new Station(systemName,stationName);commoditiesService.addStation(station);refreshStations();}function handleAddStation(event){event.preventDefault();var systemName=event.target.elements.system.value;var stationName=event.target.elements.station.value;addStation(systemName,stationName);}function handleSelectStation(event){var station=event.target.value;setSelectedStation(station);commoditiesService.queryStationData().then(function(data){setData(data);});}function handleRemoveStation(){var selected=JSON.parse(selectedStation);var station=new Station(selected.system,selected.name);commoditiesService.removeStation(station);refreshStations();setSelectedStation(\"\");}return/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"h1\",null,\"Select Station\"),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"select\",{name:\"stations\",value:selectedStation,onChange:function onChange(e){return handleSelectStation(e);}},/*#__PURE__*/React.createElement(\"option\",{key:\"null\",value:\"\"}),stations.map(function(station,index){return/*#__PURE__*/React.createElement(\"option\",{key:station.name+index,value:station},station.system,\", \",station.name);})),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"button\",{disabled:!selectedStation||selectedStation.length===0,onClick:handleRemoveStation},\"Delete\"),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"form\",{onSubmit:handleAddStation},/*#__PURE__*/React.createElement(\"label\",null,\"System Name\",/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"input\",{type:\"text\",name:\"system\"})),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"label\",null,\"Station Name\",/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"input\",{type:\"text\",name:\"station\"})),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"input\",{type:\"submit\",value:\"Add Station\",style:{marginTop:24}})),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"h1\",null,\"Station Data\"),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"br\",null),/*#__PURE__*/React.createElement(\"br\",null));};export default Commodities;"
         },
         {
           "id": null,
@@ -21807,7 +21789,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1613778442898\n      var cssReload = require(\"D:/workspace/rook/alana/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1613778710048\n      var cssReload = require(\"D:/workspace/rook/alana/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 120,

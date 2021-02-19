@@ -1242,10 +1242,7 @@ var commodities_Commodities = function Commodities() {
     style: {
       marginTop: 24
     }
-  })), /*#__PURE__*/external_react_default.a.createElement("br", null), /*#__PURE__*/external_react_default.a.createElement("h1", null, "Station Data"), /*#__PURE__*/external_react_default.a.createElement("br", null), /*#__PURE__*/external_react_default.a.createElement("iframe", {
-    title: "data",
-    src: "http://inara.cz/market/?ps1=Bodhinga+%5BHay+Forum%5D"
-  }), /*#__PURE__*/external_react_default.a.createElement("br", null), /*#__PURE__*/external_react_default.a.createElement("br", null));
+  })), /*#__PURE__*/external_react_default.a.createElement("br", null), /*#__PURE__*/external_react_default.a.createElement("h1", null, "Station Data"), /*#__PURE__*/external_react_default.a.createElement("br", null), /*#__PURE__*/external_react_default.a.createElement("br", null), /*#__PURE__*/external_react_default.a.createElement("br", null));
 };
 
 /* harmony default export */ var commodities = __webpack_exports__["default"] = (commodities_Commodities);
