@@ -7,7 +7,7 @@ function App() {
     <Root>
       <nav>
         <a href="/">Home</a>
-        <a href="/dynamic">Dynamic</a>
+        <a href="/commodities">Commodities</a>
       </nav>
       <div className="content">
         <React.Suspense fallback={<em>Loading...</em>}>

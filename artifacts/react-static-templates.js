@@ -17,14 +17,18 @@ const universalOptions = {
 const t_0 = universal(import('__react_static_root__/src/pages/404.js'), universalOptions)
       t_0.template = '__react_static_root__/src/pages/404.js'
       
-const t_1 = universal(import('__react_static_root__/src/pages/index.js'), universalOptions)
-      t_1.template = '__react_static_root__/src/pages/index.js'
+const t_1 = universal(import('__react_static_root__/src/pages/commodities.js'), universalOptions)
+      t_1.template = '__react_static_root__/src/pages/commodities.js'
+      
+const t_2 = universal(import('__react_static_root__/src/pages/index.js'), universalOptions)
+      t_2.template = '__react_static_root__/src/pages/index.js'
       
 
 // Template Map
 export default {
   '__react_static_root__/src/pages/404.js': t_0,
-'__react_static_root__/src/pages/index.js': t_1
+'__react_static_root__/src/pages/commodities.js': t_1,
+'__react_static_root__/src/pages/index.js': t_2
 }
 // Not Found Template
 export const notFoundTemplate = "__react_static_root__/src/pages/404.js"
