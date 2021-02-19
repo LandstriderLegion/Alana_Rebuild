@@ -2,10 +2,10 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "971c462d129895c278c3",
-  "time": 3803,
-  "builtAt": 1613766062195,
-  "publicPath": "/",
+  "hash": "9735cd77159f4bcfe4e1",
+  "time": 6905,
+  "builtAt": 1613766777938,
+  "publicPath": "https://rook-platoon.github.io/",
   "outputPath": "D:\\workspace\\rook\\alana\\dist",
   "assetsByChunkName": {
     "__react_static_root__/src/containers/Post": "templates/__react_static_root__/src/containers/Post.0611d237.js",
@@ -13,17 +13,17 @@
     "__react_static_root__/src/pages/about": "templates/__react_static_root__/src/pages/about.3fd4bf9f.js",
     "__react_static_root__/src/pages/blog": "templates/__react_static_root__/src/pages/blog.b9644473.js",
     "__react_static_root__/src/pages/index": "templates/__react_static_root__/src/pages/index.c8161ac6.js",
-    "main": "main.cc8f5c7f.js",
+    "main": "main.f0e07368.js",
     "styles": [
       "styles.82b2ee7c.css",
-      "templates/styles.0b7d64b6.js"
+      "templates/styles.11dee7bd.js"
     ],
-    "vendors~main": "templates/vendors~main.4fea7709.js"
+    "vendors~main": "templates/vendors~main.8ee2d0ca.js"
   },
   "assets": [
     {
-      "name": "main.cc8f5c7f.js",
-      "size": 7361,
+      "name": "main.f0e07368.js",
+      "size": 7391,
       "chunks": [
         5
       ],
@@ -120,7 +120,7 @@
       "emitted": true
     },
     {
-      "name": "templates/styles.0b7d64b6.js",
+      "name": "templates/styles.11dee7bd.js",
       "size": 82,
       "chunks": [
         6
@@ -134,8 +134,8 @@
       "emitted": true
     },
     {
-      "name": "templates/vendors~main.4fea7709.js",
-      "size": 249050,
+      "name": "templates/vendors~main.8ee2d0ca.js",
+      "size": 249080,
       "chunks": [
         7
       ],
@@ -158,9 +158,9 @@
       ],
       "assets": [
         "styles.82b2ee7c.css",
-        "templates/styles.0b7d64b6.js",
-        "templates/vendors~main.4fea7709.js",
-        "main.cc8f5c7f.js"
+        "templates/styles.11dee7bd.js",
+        "templates/vendors~main.8ee2d0ca.js",
+        "main.f0e07368.js"
       ],
       "children": {},
       "childAssets": {}
@@ -175,9 +175,9 @@
       ],
       "assets": [
         "styles.82b2ee7c.css",
-        "templates/styles.0b7d64b6.js",
-        "templates/vendors~main.4fea7709.js",
-        "main.cc8f5c7f.js"
+        "templates/styles.11dee7bd.js",
+        "templates/vendors~main.8ee2d0ca.js",
+        "main.f0e07368.js"
       ],
       "children": {},
       "childAssets": {}
@@ -764,9 +764,9 @@
         "main"
       ],
       "files": [
-        "main.cc8f5c7f.js"
+        "main.f0e07368.js"
       ],
-      "hash": "ebda1bbbc677526acf5e",
+      "hash": "a7db9ef7b12902502a45",
       "siblings": [
         6,
         7
@@ -1454,9 +1454,9 @@
       ],
       "files": [
         "styles.82b2ee7c.css",
-        "templates/styles.0b7d64b6.js"
+        "templates/styles.11dee7bd.js"
       ],
-      "hash": "496dc215f2f3c6ecb176",
+      "hash": "739652bba2536c23fbef",
       "siblings": [
         5,
         7
@@ -1531,7 +1531,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1613766060877\n      var cssReload = require(\"D:/workspace/rook/alana/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1613766773121\n      var cssReload = require(\"D:/workspace/rook/alana/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": "",
@@ -1619,9 +1619,9 @@
         "vendors~main"
       ],
       "files": [
-        "templates/vendors~main.4fea7709.js"
+        "templates/vendors~main.8ee2d0ca.js"
       ],
-      "hash": "98e367df42d5c65d76bf",
+      "hash": "80d0a83368d629c164dd",
       "siblings": [
         5,
         6
@@ -3449,9 +3449,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -4164,9 +4164,9 @@
           "chunks": [
             7
           ],
-          "issuer": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "issuerId": 59,
-          "issuerName": "../lib/bootstrapPlugins.js",
+          "issuer": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "issuerId": 112,
+          "issuerName": "../lib/bootstrapTemplates.js",
           "issuerPath": [
             {
               "id": 58,
@@ -4174,9 +4174,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             }
           ],
           "failed": false,
@@ -4289,9 +4289,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -4400,9 +4400,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -4853,9 +4853,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6307,9 +6307,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6378,9 +6378,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6454,9 +6454,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6520,9 +6520,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6591,9 +6591,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6657,9 +6657,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6723,9 +6723,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6799,9 +6799,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6880,9 +6880,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6956,9 +6956,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7103,9 +7103,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7184,9 +7184,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7270,9 +7270,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7346,9 +7346,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7422,9 +7422,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9056,9 +9056,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9118,9 +9118,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9180,9 +9180,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9242,9 +9242,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9299,9 +9299,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9361,9 +9361,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9423,9 +9423,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9485,9 +9485,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9547,9 +9547,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9614,9 +9614,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9686,9 +9686,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9758,9 +9758,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9835,9 +9835,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9907,9 +9907,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9984,9 +9984,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10066,9 +10066,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10143,9 +10143,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10220,9 +10220,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10302,9 +10302,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10384,9 +10384,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10461,9 +10461,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10538,9 +10538,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10605,9 +10605,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10672,9 +10672,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10739,9 +10739,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10801,9 +10801,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10866,9 +10866,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -14471,9 +14471,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -15186,9 +15186,9 @@
       "chunks": [
         7
       ],
-      "issuer": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-      "issuerId": 59,
-      "issuerName": "../lib/bootstrapPlugins.js",
+      "issuer": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+      "issuerId": 112,
+      "issuerName": "../lib/bootstrapTemplates.js",
       "issuerPath": [
         {
           "id": 58,
@@ -15196,9 +15196,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         }
       ],
       "failed": false,
@@ -15311,9 +15311,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -15422,9 +15422,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -16022,9 +16022,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -17707,9 +17707,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -17778,9 +17778,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -17854,9 +17854,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -17920,9 +17920,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -17991,9 +17991,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18057,9 +18057,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18123,9 +18123,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18199,9 +18199,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18280,9 +18280,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18356,9 +18356,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18503,9 +18503,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18584,9 +18584,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18670,9 +18670,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18746,9 +18746,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18822,9 +18822,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -20887,9 +20887,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -20949,9 +20949,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21011,9 +21011,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21073,9 +21073,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21130,9 +21130,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21192,9 +21192,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21254,9 +21254,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21316,9 +21316,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21378,9 +21378,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21445,9 +21445,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21517,9 +21517,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21589,9 +21589,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21666,9 +21666,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21738,9 +21738,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21815,9 +21815,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21897,9 +21897,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21974,9 +21974,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22051,9 +22051,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22133,9 +22133,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22215,9 +22215,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22292,9 +22292,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22369,9 +22369,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22436,9 +22436,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22503,9 +22503,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22570,9 +22570,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22632,9 +22632,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22697,9 +22697,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "D:\\workspace\\rook\\alana\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\workspace\\rook\\alana\\node_modules\\react-hot-loader\\webpack.js!D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -24651,7 +24651,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1613766060877\n      var cssReload = require(\"D:/workspace/rook/alana/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1613766773121\n      var cssReload = require(\"D:/workspace/rook/alana/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 130,
@@ -24790,7 +24790,7 @@
     {
       "errors": [],
       "warnings": [],
-      "publicPath": "/",
+      "publicPath": "https://rook-platoon.github.io/",
       "outputPath": "D:\\workspace\\rook\\alana\\dist",
       "assetsByChunkName": {},
       "assets": [],
@@ -24832,7 +24832,7 @@
           "files": [
             "*"
           ],
-          "hash": "196c521248679a611a0f",
+          "hash": "9e82491c7f02d5e61ad8",
           "siblings": [],
           "parents": [],
           "children": [],
