@@ -31,6 +31,16 @@ exports.handler = async function (event, context) {
         // 2. Open a new page
         const page = await browser.newPage();
 
+        page.on("pageerror", function(err) {  
+            const temp = err.toString();
+            console.log("Page error: " + temp); 
+        })
+
+        page.on("error", function (err) {  
+            const temp = err.toString();
+            console.log("Error: " + temp); 
+        })
+
         const url = buildURL(system, station)
 
         console.log('Url target: ', url)
@@ -44,8 +54,6 @@ exports.handler = async function (event, context) {
 
             const nodeList = document.querySelectorAll('.mainblock.maintable')
 
-            return { data: nodeList.length }
-
             // Node list length is 3 if market not found (station/system not found)
             if (nodeList.length === 3) {
                 return ({ data: 'System/Station Not Found' })
@@ -53,15 +61,11 @@ exports.handler = async function (event, context) {
 
             const marketDiv = nodeList[3]
 
-            console.log('md: ', marketDiv)
+            //return { data: marketDiv.length }
 
             const tableBody = marketDiv.children[0].tBodies[0]
 
-            console.log('tb: ', tableBody)
-
             const rows = tableBody.rows
-
-            console.log('rows: ', rows)
             
             const results = []
             
