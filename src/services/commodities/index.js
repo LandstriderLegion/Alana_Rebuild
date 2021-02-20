@@ -10,8 +10,14 @@ export default class CommoditiesService {
         this.strategy = new LocalStorageStrategy()
     }
 
-    queryStationData(system, station) {
-        return fetch(`https://alana.netlify.app/.netlify/functions/scrape?system=${system}&station=${station}`)
+    queryStationData(station) {
+        if (!(station instanceof Station)) {
+            throw Error('Not a Station')
+        }
+
+        const { system, name } = station
+
+        return fetch(`https://alana.netlify.app/.netlify/functions/scrape?system=${system}&station=${name}`)
         .then(response => response.json)
         .then(json => json.data)
     }
@@ -19,7 +25,7 @@ export default class CommoditiesService {
     addStation(station) {
 
         if (!(station instanceof Station)) {
-            throw Error('Not a Station object')
+            throw Error('Not a Station')
         }
 
         const stations = this.strategy.read(STATIONS_ARRAY_KEY)
@@ -34,7 +40,7 @@ export default class CommoditiesService {
     removeStation(station) {
 
         if (!(station instanceof Station)) {
-            throw Error('Not a Station object')
+            throw Error('Not a Station')
         }
 
         const stations = this.strategy.read(STATIONS_ARRAY_KEY)
@@ -42,7 +48,7 @@ export default class CommoditiesService {
         console.log('test : ', stations)
 
         if (!Array.isArray(stations)) {
-            console.warn('Stations is not array')
+            console.warn('stations is not array')
             return
         }
 
