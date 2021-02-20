@@ -121,14 +121,14 @@ const Commodities = () => {
       <h1>Station Data</h1>
       <br />
       {
-        commodities && commodities.errors === undefined ? commodities.map(commodity => {
+        commodities && (commodities.errors === undefined ? commodities.map(commodity => {
 
           return (
             <div>
               <p>{commodity}</p>
             </div>
           )
-        }) : 'Errors: ' + commodities.errors
+        }) : 'Errors: ' + commodities.errors)
       }
       <br />
       <br />
