@@ -31,7 +31,7 @@ exports.handler = async function (event, context) {
         // 2. Open a new page
         const page = await browser.newPage();
 
-        const url = buildURL()
+        const url = buildURL(system, station)
 
         console.log('Url target: ', url)
 
