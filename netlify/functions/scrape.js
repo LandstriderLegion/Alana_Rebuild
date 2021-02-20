@@ -10,7 +10,7 @@ exports.handler = async function (event, context) {
     if (!station || station.length === 0 || !system || system.length === 0) {
         return {
             statusCode: 400,
-            body: 'Error - Bad input'
+            body: JSON.stringify({ errors: ['Bad input'] })
         }
     }
 
@@ -103,7 +103,7 @@ exports.handler = async function (event, context) {
     } catch (e) {
         return {
             statusCode: 500,
-            body: 'Server Error: \n' + e
+            body: JSON.stringify({ errors: ['Server Error: \n' + e]})
         }
     }
 

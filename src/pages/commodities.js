@@ -56,7 +56,8 @@ const Commodities = () => {
     commoditiesService.queryStationData(station)
       .then(data => {
 
-        console.log(data)
+        console.info('Commodities Data: ', data)
+
         setCommodities(data)
       })
   }

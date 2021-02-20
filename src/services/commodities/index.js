@@ -18,7 +18,7 @@ export default class CommoditiesService {
         const { system, name } = station
 
         return fetch(`https://alana.netlify.app/.netlify/functions/scrape?system=${system}&station=${name}`)
-        .then(response => response.json)
+        .then(response => response.json())
         .then(json => json.data)
     }
 
