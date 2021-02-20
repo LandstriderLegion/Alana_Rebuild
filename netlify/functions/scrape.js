@@ -48,9 +48,11 @@ exports.handler = async function (event, context) {
         // 3. Navigate to the given URL
         await page.goto(url);
 
+        const scrapeCtx = this
+
         data = await page.evaluate(() => {
 
-            console.log('Evaluating page...')
+            scrapeCtx.console.log('Evaluating page...')
 
             const nodeList = document.querySelectorAll('.mainblock.maintable')
 
@@ -70,6 +72,7 @@ exports.handler = async function (event, context) {
                 // return { data: rows.length }
             
             const results = []
+            const size = 0
             
             for (let i = 0; i < rows.length; i++) {
                 const row = rows[i]
@@ -88,8 +91,6 @@ exports.handler = async function (event, context) {
                     if (supply === '-') {
                         continue
                     }
-
-                    //const marketRow = new MarketRow(name, sellPrice, supply)
 
                     results.push({ name, sellPrice, supply })
                 }
@@ -119,13 +120,4 @@ function buildURL(system, station) {
     let query = `?ps1=${system.replace(' ', '+')}+%5B${station.replace(' ', '+')}%5D`
 
     return INARA_ROOT + query
-}
-
-class MarketRow {
-
-    constructor(name, sellPrice, supply) {
-        this.name = name
-        this.sellPrice = sellPrice
-        this.supply = supply
-    }
 }
