@@ -31,11 +31,16 @@ exports.handler = async function (event, context) {
         // 2. Open a new page
         const page = await browser.newPage();
 
+        const url = buildURL()
+
+        console.info('Url target: ', url)
+
         // 3. Navigate to the given URL
-        await page.goto(buildURLPath(system, station));
+        await page.goto(url);
 
         data = await page.evaluate(() => {
 
+            console.info('Evaluating page...')
             // document.querySelector('#ui-id-4').click()
 
             // await Timeout.set(getBoundedRandomDelay())
@@ -104,7 +109,7 @@ exports.handler = async function (event, context) {
     };
 }
 
-function buildURLPath(system, station) {
+function buildURL(system, station) {
 
     let query = `?ps1=${system.replace(' ', '+')}+%5B${station.replace(' ', '+')}%5D`
 
