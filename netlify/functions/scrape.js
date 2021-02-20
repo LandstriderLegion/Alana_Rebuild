@@ -76,14 +76,14 @@ exports.handler = async function (event, context) {
 
                 const row = rows[i]
 
-                let name, sellPrice, supply
+                let name, price, supply
 
                 if (row.children[0].classList.contains('subheader')) {
                     continue
                 } else {
                     name = row.children[0].children[0].innerText
 
-                    sellPrice = row.children[2].innerText
+                    price = row.children[2].innerText
 
                     supply = row.children[4].innerText
 
@@ -92,7 +92,7 @@ exports.handler = async function (event, context) {
                     }
 
                     acceptedRows++
-                    results.push({ name, sellPrice, supply })
+                    results.push({ name, price, supply })
                 }
             }
 
