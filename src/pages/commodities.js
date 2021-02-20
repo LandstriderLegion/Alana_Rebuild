@@ -124,7 +124,7 @@ const Commodities = () => {
 
           return (
             <div>
-              <p>{name}</p>
+              <p><b>{name}</b></p>
               <br />
               <p>{sellPrice}</p>
               <br />
