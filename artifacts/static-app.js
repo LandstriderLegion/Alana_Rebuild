@@ -99,7 +99,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "https://rook-platoon.github.io/alana.github.io/";
 /******/
 /******/ 	// uncaught error handler for webpack runtime
 /******/ 	__webpack_require__.oe = function(err) {
@@ -110,7 +110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 21);
+/******/ 	return __webpack_require__(__webpack_require__.s = 19);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -150,7 +150,7 @@ module.exports = require("@babel/runtime/helpers/createClass");
 "use strict";
 /* WEBPACK VAR INJECTION */(function(module) {
 
-var _typeof = __webpack_require__(9);
+var _typeof = __webpack_require__(8);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -189,7 +189,7 @@ var _createClass = function () {
   };
 }();
 
-var _requireUniversalModule = __webpack_require__(27);
+var _requireUniversalModule = __webpack_require__(25);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -204,7 +204,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(29);
+var _reportChunks = __webpack_require__(27);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -218,23 +218,23 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(14);
+var _propTypes = __webpack_require__(13);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(16);
+var _hoistNonReactStatics = __webpack_require__(15);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
-var _context = __webpack_require__(15);
+var _context = __webpack_require__(14);
 
 var _context2 = _interopRequireDefault(_context);
 
-var _utils = __webpack_require__(10);
+var _utils = __webpack_require__(9);
 
-var _helpers = __webpack_require__(30);
+var _helpers = __webpack_require__(28);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -618,7 +618,7 @@ function universal(asyncModule) {
     return UniversalComponent;
   }(_react2["default"].Component), _class.contextType = _context2["default"], _temp;
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(26)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(24)(module)))
 
 /***/ }),
 /* 6 */
@@ -631,11 +631,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _utils = __webpack_require__(10);
+var _utils = __webpack_require__(9);
 
 var requireById = function requireById(id) {
   if (!(0, _utils.isWebpack)() && typeof id === 'string') {
-    return __webpack_require__(28)("" + id);
+    return __webpack_require__(26)("" + id);
   }
 
   return __webpack_require__('' + id);
@@ -645,55 +645,24 @@ exports["default"] = requireById;
 
 /***/ }),
 /* 7 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(12);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(39);
-/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_app_css__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-
-function App() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_static__WEBPACK_IMPORTED_MODULE_1__["Root"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/"
-  }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/commodities"
-  }, "Commodities")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "content"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Suspense, {
-    fallback: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("em", null, "Loading...")
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_static__WEBPACK_IMPORTED_MODULE_1__["Routes"], {
-    path: "*"
-  }))));
-}
-
-/* harmony default export */ __webpack_exports__["a"] = (App);
-
-/***/ }),
-/* 8 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/slicedToArray");
 
 /***/ }),
-/* 9 */
+/* 8 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/typeof");
 
 /***/ }),
-/* 10 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _typeof2 = __webpack_require__(9);
+var _typeof2 = __webpack_require__(8);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -853,31 +822,31 @@ var cacheProm = exports.cacheProm = function cacheProm(pr, chunkName, props, pro
 };
 
 /***/ }),
-/* 11 */
+/* 10 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 12 */
+/* 11 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-static");
 
 /***/ }),
-/* 13 */
+/* 12 */
 /***/ (function(module, exports) {
 
 module.exports = require("D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\browser");
 
 /***/ }),
-/* 14 */
+/* 13 */
 /***/ (function(module, exports) {
 
 module.exports = require("prop-types");
 
 /***/ }),
-/* 15 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -904,13 +873,13 @@ var ReportContext = _react2["default"].createContext({
 exports["default"] = ReportContext;
 
 /***/ }),
-/* 16 */
+/* 15 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 17 */
+/* 16 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -926,7 +895,7 @@ var FourZeroFour = function FourZeroFour() {
 /* harmony default export */ __webpack_exports__["default"] = (FourZeroFour);
 
 /***/ }),
-/* 18 */
+/* 17 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -946,7 +915,7 @@ var Index = function Index() {
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
-/* 19 */
+/* 18 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -954,7 +923,7 @@ var Index = function Index() {
 __webpack_require__.r(__webpack_exports__);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(8);
+var slicedToArray_ = __webpack_require__(7);
 var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 
 // EXTERNAL MODULE: external "react"
@@ -1236,31 +1205,25 @@ var commodities_Commodities = function Commodities() {
 /* harmony default export */ var commodities = __webpack_exports__["default"] = (commodities_Commodities);
 
 /***/ }),
-/* 20 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-hot-loader");
-
-/***/ }),
-/* 21 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
+__webpack_require__(20);
 __webpack_require__(22);
-__webpack_require__(24);
-module.exports = __webpack_require__(31);
+module.exports = __webpack_require__(29);
 
 
 /***/ }),
-/* 22 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 /* eslint-disable import/no-dynamic-require */
 
-var plugins = __webpack_require__(23)["default"];
+var plugins = __webpack_require__(21)["default"];
 
-var _require = __webpack_require__(13),
+var _require = __webpack_require__(12),
     registerPlugins = _require.registerPlugins;
 
 registerPlugins(plugins);
@@ -1268,7 +1231,7 @@ registerPlugins(plugins);
 if (false) {}
 
 /***/ }),
-/* 23 */
+/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1292,17 +1255,17 @@ var plugins = [{
 /* harmony default export */ __webpack_exports__["default"] = (plugins);
 
 /***/ }),
-/* 24 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 /* eslint-disable import/no-dynamic-require */
 
-var _require = __webpack_require__(13),
+var _require = __webpack_require__(12),
     registerTemplates = _require.registerTemplates;
 
-var _require2 = __webpack_require__(25),
+var _require2 = __webpack_require__(23),
     templates = _require2["default"],
     notFoundTemplate = _require2.notFoundTemplate;
 
@@ -1311,7 +1274,7 @@ registerTemplates(templates, notFoundTemplate);
 if (false) {}
 
 /***/ }),
-/* 25 */
+/* 23 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1347,7 +1310,7 @@ var universalOptions = {
 var t_0 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/404.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/404 */).then(__webpack_require__.bind(null, 17))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/404 */).then(__webpack_require__.bind(null, 16))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1355,7 +1318,7 @@ var t_0 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/404.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(17);
+    return /*require.resolve*/(16);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/404";
@@ -1365,7 +1328,7 @@ t_0.template = '__react_static_root__/src/pages/404.js';
 var t_1 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/commodities.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/commodities */).then(__webpack_require__.bind(null, 19))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/commodities */).then(__webpack_require__.bind(null, 18))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1373,7 +1336,7 @@ var t_1 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/commodities.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(19);
+    return /*require.resolve*/(18);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/commodities";
@@ -1383,7 +1346,7 @@ t_1.template = '__react_static_root__/src/pages/commodities.js';
 var t_2 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/index.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/index */).then(__webpack_require__.bind(null, 18))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/index */).then(__webpack_require__.bind(null, 17))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1391,7 +1354,7 @@ var t_2 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/index.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(18);
+    return /*require.resolve*/(17);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/index";
@@ -1409,7 +1372,7 @@ var notFoundTemplate = "__react_static_root__/src/pages/404.js";
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
 /***/ }),
-/* 26 */
+/* 24 */
 /***/ (function(module, exports) {
 
 module.exports = function (module) {
@@ -1438,7 +1401,7 @@ module.exports = function (module) {
 };
 
 /***/ }),
-/* 27 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1465,7 +1428,7 @@ var _extends = Object.assign || function (target) {
 
 exports["default"] = requireUniversalModule;
 
-var _utils = __webpack_require__(10);
+var _utils = __webpack_require__(9);
 
 var CHUNK_NAMES = exports.CHUNK_NAMES = new Set();
 var MODULE_IDS = exports.MODULE_IDS = new Set();
@@ -1649,7 +1612,7 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 28 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -1677,16 +1640,16 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 28;
+webpackContext.id = 26;
 
 /***/ }),
-/* 29 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _typeof = __webpack_require__(9);
+var _typeof = __webpack_require__(8);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -1714,11 +1677,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(14);
+var _propTypes = __webpack_require__(13);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _context = __webpack_require__(15);
+var _context = __webpack_require__(14);
 
 var _context2 = _interopRequireDefault(_context);
 
@@ -1790,7 +1753,7 @@ ReportChunks.propTypes = {
 exports["default"] = ReportChunks;
 
 /***/ }),
-/* 30 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1801,7 +1764,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.__handleAfter = exports.__update = undefined;
 
-var _hoistNonReactStatics = __webpack_require__(16);
+var _hoistNonReactStatics = __webpack_require__(15);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -1857,28 +1820,28 @@ var __handleAfter = exports.__handleAfter = function __handleAfter(props, state,
 };
 
 /***/ }),
-/* 31 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(32);
+var _interopRequireWildcard = __webpack_require__(30);
 
-var _interopRequireDefault = __webpack_require__(33);
+var _interopRequireDefault = __webpack_require__(31);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__(34));
+var _extends2 = _interopRequireDefault(__webpack_require__(32));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(35));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(33));
 
 var React = _interopRequireWildcard(__webpack_require__(0));
 
-var _useStaticInfo = __webpack_require__(36);
+var _useStaticInfo = __webpack_require__(34);
 /* eslint-disable import/no-dynamic-require */
 
 
@@ -1912,117 +1875,47 @@ var _default = function _default(staticInfo) {
 exports["default"] = _default;
 
 /***/ }),
-/* 32 */
+/* 30 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireWildcard");
 
 /***/ }),
-/* 33 */
+/* 31 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireDefault");
 
 /***/ }),
-/* 34 */
+/* 32 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/extends");
 
 /***/ }),
-/* 35 */
+/* 33 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
 
 /***/ }),
-/* 36 */
+/* 34 */
 /***/ (function(module, exports) {
 
 module.exports = require("D:\\workspace\\rook\\alana\\node_modules\\react-static\\lib\\browser\\hooks\\useStaticInfo");
 
 /***/ }),
-/* 37 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(11);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(20);
-/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_hot_loader__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7);
-
-
- // Your top level component
-
- // Export your top level component as JSX (for static rendering)
-
-/* harmony default export */ __webpack_exports__["default"] = (_App__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"]); // Render your app
-
-if (typeof document !== 'undefined') {
-  var target = document.getElementById('root');
-  var renderMethod = target.hasChildNodes() ? react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.hydrate : react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render;
-
-  var render = function render(Comp) {
-    renderMethod( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_hot_loader__WEBPACK_IMPORTED_MODULE_2__["AppContainer"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Comp, null)), target);
-  }; // Render!
-
-
-  render(_App__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"]); // Hot Module Replacement
-
-  if (module && module.hot) {
-    module.hot.accept('./App', function () {
-      render(_App__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"]);
-    });
-  }
-}
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(38)(module)))
-
-/***/ }),
-/* 38 */
-/***/ (function(module, exports) {
-
-module.exports = function (originalModule) {
-  if (!originalModule.webpackPolyfill) {
-    var module = Object.create(originalModule); // module.parent = undefined by default
-
-    if (!module.children) module.children = [];
-    Object.defineProperty(module, "loaded", {
-      enumerable: true,
-      get: function get() {
-        return module.l;
-      }
-    });
-    Object.defineProperty(module, "id", {
-      enumerable: true,
-      get: function get() {
-        return module.i;
-      }
-    });
-    Object.defineProperty(module, "exports", {
-      enumerable: true
-    });
-    module.webpackPolyfill = 1;
-  }
-
-  return module;
-};
-
-/***/ }),
-/* 39 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(40)(false);
+exports = module.exports = __webpack_require__(36)(false);
 // Module
 exports.push([module.i, "* {\n  scroll-behavior: smooth;\n}\n\nbody {\n  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',\n    Helvetica, Arial, 'Lucida Grande', sans-serif;\n  font-weight: 300;\n  font-size: 16px;\n  margin: 0;\n  padding: 0;\n}\n\na {\n  text-decoration: none;\n  color: #108db8;\n  font-weight: bold;\n}\n\nimg {\n  max-width: 100%;\n}\n\nnav {\n  width: 100%;\n  background: #108db8;\n}\n\nnav a {\n  color: white;\n  padding: 1rem;\n  display: inline-block;\n}\n\n.content {\n  padding: 1rem;\n}\n\ninput {\n  width: 300px;\n  max-width: 100%;\n}\n\nselect {\n  width: 300px;\n  max-width: 100%;\n}", ""]);
 
 
 
 /***/ }),
-/* 40 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2110,6 +2003,68 @@ function toComment(sourceMap) {
   var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
   var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
   return '/*# ' + data + ' */';
+}
+
+/***/ }),
+/* 37 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(0);
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+
+// EXTERNAL MODULE: external "react-dom"
+var external_react_dom_ = __webpack_require__(10);
+var external_react_dom_default = /*#__PURE__*/__webpack_require__.n(external_react_dom_);
+
+// EXTERNAL MODULE: external "react-static"
+var external_react_static_ = __webpack_require__(11);
+
+// EXTERNAL MODULE: D:/workspace/rook/alana/src/app.css
+var app = __webpack_require__(35);
+
+// CONCATENATED MODULE: D:/workspace/rook/alana/src/App.js
+
+
+
+
+function App() {
+  return /*#__PURE__*/external_react_default.a.createElement(external_react_static_["Root"], null, /*#__PURE__*/external_react_default.a.createElement("nav", null, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "/"
+  }, "Home"), /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "/commodities"
+  }, "Commodities")), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "content"
+  }, /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Suspense, {
+    fallback: /*#__PURE__*/external_react_default.a.createElement("em", null, "Loading...")
+  }, /*#__PURE__*/external_react_default.a.createElement(external_react_static_["Routes"], {
+    path: "*"
+  }))));
+}
+
+/* harmony default export */ var src_App = (App);
+// CONCATENATED MODULE: D:/workspace/rook/alana/src/index.js
+
+ // Your top level component
+
+ // Export your top level component as JSX (for static rendering)
+
+/* harmony default export */ var src = __webpack_exports__["default"] = (src_App); // Render your app
+
+if (typeof document !== 'undefined') {
+  var target = document.getElementById('root');
+  var renderMethod = target.hasChildNodes() ? external_react_dom_default.a.hydrate : external_react_dom_default.a.render;
+
+  var src_render = function render(Comp) {
+    renderMethod( /*#__PURE__*/external_react_default.a.createElement(Comp, null), target);
+  }; // Render!
+
+
+  src_render(src_App);
 }
 
 /***/ })
