@@ -1,8 +1,7 @@
 import path from 'path'
 
 const config = {
-  siteRoot: "https://rook-platoon.github.io/",
-  basePath: "alana.github.io",
+  siteRoot: "https://alana.netlify.app/",
   getSiteData: () => ({
     title: 'Alana - Elite Dangerous Tools Suite',
     description: 'Various tools for use with Elite Dangerous'
