@@ -67,7 +67,7 @@ exports.handler = async function (event, context) {
 
             const rows = tableBody.rows
 
-                return { data: rows.length }
+                // return { data: rows.length }
             
             const results = []
             
@@ -77,7 +77,7 @@ exports.handler = async function (event, context) {
                 let name, sellPrice, supply
 
                 if (row.children[0].classList.contains('subheader')) {
-                    return
+                    continue
                 } else {
                     name = rows[1].children[0].children[0].innerText
 
@@ -86,7 +86,7 @@ exports.handler = async function (event, context) {
                     supply = rows[1].children[4].innerText
 
                     if (supply === '-') {
-                        return
+                        continue
                     }
 
                     //const marketRow = new MarketRow(name, sellPrice, supply)
