@@ -48,11 +48,7 @@ exports.handler = async function (event, context) {
         // 3. Navigate to the given URL
         await page.goto(url);
 
-        const scrapeCtx = this
-
         data = await page.evaluate(() => {
-
-            scrapeCtx.console.log('Evaluating page...')
 
             const nodeList = document.querySelectorAll('.mainblock.maintable')
 
@@ -72,9 +68,11 @@ exports.handler = async function (event, context) {
                 // return { data: rows.length }
             
             const results = []
-            const size = 0
+            let totalRows = 0
             
             for (let i = 0; i < rows.length; i++) {
+                totalRows++
+
                 const row = rows[i]
 
                 let name, sellPrice, supply
@@ -96,7 +94,7 @@ exports.handler = async function (event, context) {
                 }
             }
 
-            return { data: results }
+            return { data: results, totalRows }
         });
 
         await browser.close();
