@@ -47,7 +47,9 @@ const Commodities = () => {
   }
 
   function handleSelectStation(event) {
-    const station = event.target.value
+    const json = event.target.value
+
+    const station = Station.fromJson(json)
 
     setSelectedStation(station)
 

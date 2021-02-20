@@ -16,4 +16,12 @@ export default class Station {
     toString() {
         return JSON.stringify({ system: this.system, name: this.name })
     }
+
+    static fromJson(json) {
+        if (typeof json === 'string') {
+            json = JSON.parse(json)
+        }
+
+        return new Station(json.system, json.name)
+    }
 }
