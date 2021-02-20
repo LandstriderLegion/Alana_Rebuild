@@ -51,7 +51,7 @@ const Commodities = () => {
 
     setSelectedStation(station)
 
-    commoditiesService.queryStationData(station.system, station.name)
+    commoditiesService.queryStationData(station)
       .then(data => {
         setCommodities(data)
       })
