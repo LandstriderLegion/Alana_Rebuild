@@ -49,10 +49,16 @@ exports.handler = async function (event, context) {
 
             const marketDiv = nodeList[3]
 
+            console.log('md: ', marketDiv)
+
             const tableBody = marketDiv.children[0].tBodies[0]
+
+            console.log('tb: ', tableBody)
 
             const rows = tableBody.rows
 
+            console.log('rows: ', rows)
+            
             const results = []
             
             for (let i = 0; i < rows.length; i++) {
