@@ -75,6 +75,31 @@ const Commodities = () => {
     setSelectedStation("")
   }
 
+  function commoditiesList() {
+
+    if (commodities === undefined) {
+      return undefined
+    }
+
+    if (commodities.errors !== undefined) {
+      return (
+        <div>
+          { 'Errors: ' + commodities.errors}
+        </div>
+      )
+    }
+
+    if (commodities.data) {
+      return commodities.data.map(commodity => {
+        return (
+          <div>
+            <p>{commodity}</p>
+          </div>
+        )
+      })
+    }
+  }
+
   return (
     <div>
       <h1>Select Station</h1>
@@ -120,16 +145,7 @@ const Commodities = () => {
       <br />
       <h1>Station Data</h1>
       <br />
-      {
-        commodities && (commodities.errors === undefined ? commodities.map(commodity => {
-
-          return (
-            <div>
-              <p>{commodity}</p>
-            </div>
-          )
-        }) : 'Errors: ' + commodities.errors)
-      }
+      { commoditiesList()}
       <br />
       <br />
     </div>
