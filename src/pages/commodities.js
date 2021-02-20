@@ -121,7 +121,7 @@ const Commodities = () => {
           const { name, sellPrice, supply } = commodity
 
           return (
-            <React.Fragment>
+            <div>
               <p>{name}</p>
               <br />
               <p>{sellPrice}</p>
@@ -129,7 +129,7 @@ const Commodities = () => {
               <p>{supply}</p>
               <br />
               <br />
-            </React.Fragment>
+            </div>
           )
         })
       }
