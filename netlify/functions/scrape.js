@@ -69,6 +69,7 @@ exports.handler = async function (event, context) {
             
             const results = []
             let totalRows = 0
+            let acceptedRows = 0
             
             for (let i = 0; i < rows.length; i++) {
                 totalRows++
@@ -80,21 +81,22 @@ exports.handler = async function (event, context) {
                 if (row.children[0].classList.contains('subheader')) {
                     continue
                 } else {
-                    name = rows[1].children[0].children[0].innerText
+                    name = row.children[0].children[0].innerText
 
-                    sellPrice = rows[1].children[1].innerText
+                    sellPrice = row.children[1].innerText
 
-                    supply = rows[1].children[4].innerText
+                    supply = row.children[4].innerText
 
                     if (supply === '-') {
                         continue
                     }
 
+                    acceptedRows++
                     results.push({ name, sellPrice, supply })
                 }
             }
 
-            return { data: results, totalRows }
+            return { data: results, totalRows, acceptedRows }
         });
 
         await browser.close();
