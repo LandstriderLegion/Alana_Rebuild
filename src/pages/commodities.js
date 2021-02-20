@@ -93,7 +93,7 @@ const Commodities = () => {
       return commodities.data.map(commodity => {
         return (
           <div>
-            <p>{commodity}</p>
+            <p>{JSON.stringify(commodity)}</p>
           </div>
         )
       })
