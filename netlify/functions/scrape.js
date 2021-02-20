@@ -83,7 +83,7 @@ exports.handler = async function (event, context) {
                 } else {
                     name = row.children[0].children[0].innerText
 
-                    sellPrice = row.children[1].innerText
+                    sellPrice = row.children[2].innerText
 
                     supply = row.children[4].innerText
 

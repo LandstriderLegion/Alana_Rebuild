@@ -121,7 +121,7 @@ const Commodities = () => {
       <h1>Station Data</h1>
       <br />
       {
-        commodities && commodities.map(commodity => {
+        commodities && commodities.errors === undefined ? commodities.map(commodity => {
 
           const { name, sellPrice, supply } = commodity
 
@@ -136,7 +136,7 @@ const Commodities = () => {
               <br />
             </div>
           )
-        })
+        }) : 'Errors: ' + commodities.errors
       }
       <br />
       <br />
