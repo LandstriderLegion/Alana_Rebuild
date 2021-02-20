@@ -33,14 +33,14 @@ exports.handler = async function (event, context) {
 
         const url = buildURL()
 
-        console.info('Url target: ', url)
+        console.log('Url target: ', url)
 
         // 3. Navigate to the given URL
         await page.goto(url);
 
         data = await page.evaluate(() => {
 
-            console.info('Evaluating page...')
+            console.log('Evaluating page...')
             // document.querySelector('#ui-id-4').click()
 
             // await Timeout.set(getBoundedRandomDelay())
