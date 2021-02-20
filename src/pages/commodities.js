@@ -55,6 +55,8 @@ const Commodities = () => {
 
     commoditiesService.queryStationData(station)
       .then(data => {
+
+        console.log(data)
         setCommodities(data)
       })
   }
