@@ -123,17 +123,9 @@ const Commodities = () => {
       {
         commodities && commodities.errors === undefined ? commodities.map(commodity => {
 
-          const { name, sellPrice, supply } = commodity
-
           return (
             <div>
-              <p><b>{name}</b></p>
-              <br />
-              <p>{sellPrice}</p>
-              <br />
-              <p>{supply}</p>
-              <br />
-              <br />
+              <p>{commodity}</p>
             </div>
           )
         }) : 'Errors: ' + commodities.errors
