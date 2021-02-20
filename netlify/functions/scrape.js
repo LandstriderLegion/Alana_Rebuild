@@ -7,6 +7,13 @@ exports.handler = async function(event, context) {
 
     const { station, system } = event.queryStringParameters
 
+    if (!station || station.length === 0 || !system || system.length === 0) {
+        return {
+            statusCode: 400,
+            body: 'Error - Bad input'
+        }
+    }
+
     return {
         statusCode: 200,
         body: buildURLPath(system, station)
