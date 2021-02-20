@@ -40,14 +40,11 @@ exports.handler = async function (event, context) {
 
         data = await page.evaluate(() => {
 
-            return { data: 'ayyyyy' }
-
             console.log('Evaluating page...')
-            // document.querySelector('#ui-id-4').click()
-
-            // await Timeout.set(getBoundedRandomDelay())
 
             const nodeList = document.querySelectorAll('.mainblock.maintable')
+
+            return { data: nodeList.length }
 
             // Node list length is 3 if market not found (station/system not found)
             if (nodeList.length === 3) {
