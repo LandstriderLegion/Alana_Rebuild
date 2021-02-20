@@ -55,7 +55,9 @@ exports.handler = async function (event, context) {
 
             const results = []
             
-            rows.forEach(row => {
+            for (let i = 0; i < rows.length; i++) {
+                const row = rows[i]
+
                 let name, sellPrice, supply
 
                 if (row.children[0].classList.contains('subheader')) {
@@ -75,7 +77,7 @@ exports.handler = async function (event, context) {
 
                     results.push({ name, sellPrice, supply })
                 }
-            })
+            }
 
             return results
         });
