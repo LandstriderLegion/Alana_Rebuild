@@ -66,6 +66,8 @@ exports.handler = async function (event, context) {
             const tableBody = marketDiv.children[0].tBodies[0]
 
             const rows = tableBody.rows
+
+                return { data: rows.length }
             
             const results = []
             
