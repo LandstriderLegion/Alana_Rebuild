@@ -116,7 +116,7 @@ const Commodities = () => {
       <h1>Station Data</h1>
       <br />
       {
-        commodities.map(commodity => {
+        commodities && commodities.map(commodity => {
 
           const { name, sellPrice, supply } = commodity
 
