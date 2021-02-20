@@ -10,11 +10,10 @@ export default class CommoditiesService {
         this.strategy = new LocalStorageStrategy()
     }
 
-    queryStationData(station) {
-        return fetch('https://inara.cz/market/?ps1=Bodhinga+%5BHay+Forum%5D', {
-            mode: 'no-cors'
-        })
-        .then(response => response.body)
+    queryStationData(system, station) {
+        return fetch(`https://alana.netlify.app/.netlify/functions/scrape?system=${system}&station=${station}`)
+        .then(response => response.json)
+        .then(json => json.data)
     }
 
     addStation(station) {

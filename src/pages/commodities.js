@@ -9,7 +9,7 @@ const Commodities = () => {
 
   const [stations, setStations] = useState(getStations())
   const [selectedStation, setSelectedStation] = useState()
-  const [data, setData] = useState()
+  const [commodities, setCommodities] = useState()
 
   useEffect(() => {
     console.info('Stations: ', stations)
@@ -52,9 +52,9 @@ const Commodities = () => {
     setSelectedStation(station)
 
     commoditiesService.queryStationData()
-    .then(data => {
-      setData(data)
-    })
+      .then(data => {
+        setCommodities(data)
+      })
   }
 
   function handleRemoveStation() {
@@ -115,7 +115,24 @@ const Commodities = () => {
       <br />
       <h1>Station Data</h1>
       <br />
-      {/* <iframe title="data" src='http://inara.cz/market/?ps1=Bodhinga+%5BHay+Forum%5D'></iframe> */}
+      {
+        commodities.map(commodity => {
+
+          const { name, sellPrice, supply } = commodity
+
+          return (
+            <>
+              <p>{name}</p>
+              <br />
+              <p>{sellPrice}</p>
+              <br />
+              <p>{supply}</p>
+              <br />
+              <br />
+            </>
+          )
+        })
+      }
       <br />
       <br />
     </div>
