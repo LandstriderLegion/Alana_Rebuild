@@ -40,6 +40,8 @@ exports.handler = async function (event, context) {
 
         data = await page.evaluate(() => {
 
+            return { data: 'ayyyyy' }
+
             console.log('Evaluating page...')
             // document.querySelector('#ui-id-4').click()
 
@@ -90,7 +92,7 @@ exports.handler = async function (event, context) {
                 }
             }
 
-            return results
+            return { data: results }
         });
 
         await browser.close();
@@ -101,7 +103,7 @@ exports.handler = async function (event, context) {
         }
     }
 
-    console.log(data)
+    console.log('Data: ', data)
 
     return {
         statusCode: 200,
